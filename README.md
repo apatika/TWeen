@@ -11,7 +11,7 @@ TWeen.js is licensed under the terms of the MIT License.
 Import Tween.js into your html code, then :
 
 ~~~ sh
-TW(element,{'top':250,'opacity':.4}, 4, callback);
+TW(element,{'top':250,'opacity':.4}, 4, callback, 'easeInQuad');
 ~~~
 
 
