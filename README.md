@@ -30,5 +30,3 @@ The resulting files are:
 
  `dist/TWeen.min.js`
  `dist/TWeen.min.js.map`
-
-~~~ sh
