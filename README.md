@@ -1,4 +1,4 @@
-# TWeen.js – a minimalist JavaScript Tween library
+# TWeen.js – a Minimalist JavaScript Tween Library
 
 TWeen is a minimalist JavaScript library for modern browsers. 
 
