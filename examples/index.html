@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		div{
+			
+			width: 5px;
+			height: 300px;
+			position: relative;
+			margin-top: 2px;
+			display: inline-block;
+			border: 1px solid #000;
+		}
+	</style>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src='../src/TWeen.js'></script>
+	<script type="text/javascript">
+		window.onload = function(){
+
+			for(var x=0;x<20;x++){
+				var item = document.createElement('div');
+				document.body.appendChild(item);
+				item.id = 'd'+x;
+				
+					item.style.top = '0px';
+					item.style.left = (x*5)+'px';
+		
+				
+				TW($('#d'+x),{'top':250*Math.random()}, 4, final);
+			}
+
+			function final(){
+				TW(this,{'top':0}, 4, principio,'easeOutElastic');
+			}
+
+			function principio(){
+				TW(this,{'top':50*Math.random(), height:200*Math.random()+100}, Math.ceil(Math.random()*4), final);
+			}
+
+		};
+	</script>
+</head>
+<body>
+		
+</body>
+</html>
