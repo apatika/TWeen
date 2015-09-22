@@ -1,6 +1,8 @@
 # TWeen.js – a Minimalist JavaScript Tween Library
 
-TWeen is a minimalist JavaScript library for modern browsers. 
+TWeen is a minimalist JavaScript Tween Library for modern browsers.
+
+It uses the Robert Penner's easing functions.
 
 You do not need JQuery to use it but you can pass a JQuery element if you want. It is up to you.
 
