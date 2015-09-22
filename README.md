@@ -8,6 +8,8 @@ TWeen.js is licensed under the terms of the MIT License.
 
 ## Use
 
+Import Tween.js into your html code, then :
+
 ~~~ sh
 TW(element,{'top':250,'opacity':.4}, 4, callback);
 ~~~
@@ -17,15 +19,16 @@ TW(element,{'top':250,'opacity':.4}, 4, callback);
 
 You will need Node.js and npm installed on your system.
 
-You can remove all the ease functions that you do not need before minimize.
+You can remove all the Robert Penner's easing functions that you do not need before minimize.
 
 ~~~ sh
 $ npm install
-$ npm run-script dist
+$ grunt
 ~~~
 
 The resulting files are:
 
  `dist/TWeen.min.js`
+ `dist/TWeen.min.js.map`
 
 ~~~ sh
